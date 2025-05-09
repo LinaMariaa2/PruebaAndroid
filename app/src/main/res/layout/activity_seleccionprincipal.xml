@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seleccionprincipal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulose"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:textSize="30sp"
+        android:textColor="@color/azuloscuro"
+        />
+    <Button
+        android:id="@+id/btnaprender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saprender"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:textSize="30dp"
+        android:backgroundTint="@color/rosita"
+        />
+    <Button
+        android:id="@+id/btnjugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sjugar"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:backgroundTint="@color/rosita"
+        />
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frutas">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulof"
+        android:textColor="@color/azuloscuro"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/watermelonimg"
+            android:layout_marginRight="50dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnescucha"
+            android:textSize="30sp"
+            android:backgroundTint="@color/rosita"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="32dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:text="@string/sandia"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/orangeimg" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnescucha"
+            android:textSize="30sp"
+            android:backgroundTint="@color/rosita"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="32dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="32dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:text="@string/naranja"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pineappleimg" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnescucha"
+            android:textSize="30sp"
+            android:backgroundTint="@color/rosita"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="32dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="32dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:text="@string/pina"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/strawberryimg" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnescucha"
+            android:textSize="30sp"
+            android:backgroundTint="@color/rosita"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="32dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginRight="32dp">
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="30dp"
+            android:text="@string/fresa"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
