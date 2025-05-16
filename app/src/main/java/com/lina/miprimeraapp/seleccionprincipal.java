@@ -13,8 +13,10 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class seleccionprincipal extends AppCompatActivity {
 
-    Button btnNextJugar;
+
     Button btnNextAprender;
+    Button btnNextJugar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +29,7 @@ public class seleccionprincipal extends AppCompatActivity {
         btnNextJugar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent irJugar = new Intent(seleccionprincipal.this,MenuApp.class);
+                Intent irJugar = new Intent(seleccionprincipal.this,Preguntauno.class);
                 startActivity(irJugar);
             }
         });

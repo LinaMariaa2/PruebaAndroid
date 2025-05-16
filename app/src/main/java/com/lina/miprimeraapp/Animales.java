@@ -5,22 +5,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 
 public class Animales extends AppCompatActivity {
     Button btnNextCS;
-    ImageView imgCow;
     MediaPlayer sonidovaca;
 
     Button btnNextGS;
-    ImageView imgcat;
     MediaPlayer sonidogato;
 
     Button btnNextDS;
-    ImageView imgDog;
     MediaPlayer sonidoperro;
 
     Button btnNextTS;
@@ -33,11 +29,13 @@ public class Animales extends AppCompatActivity {
         setContentView(R.layout.activity_animales);
 
         btnNextCS = findViewById(R.id.btncow);
-        imgCow = findViewById(R.id.imgcow);
+
         btnNextGS = findViewById(R.id.btncat);
-        imgcat = findViewById(R.id.imgcat);
+
         btnNextDS = findViewById(R.id.btndog);
-        imgDog = findViewById(R.id.imgdog);
+
+
+
         btnNextTS = findViewById(R.id.btnturtle);
 
         btnNextTS.setOnClickListener(new View.OnClickListener() {

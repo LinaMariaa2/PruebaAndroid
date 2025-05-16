@@ -18,8 +18,8 @@
         />
     <Button
         android:id="@+id/btnaprender"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
         android:text="@string/saprender"
         android:layout_gravity="center"
         android:layout_marginTop="180dp"
@@ -28,8 +28,8 @@
         />
     <Button
         android:id="@+id/btnjugar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
         android:text="@string/sjugar"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"

@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Preguntados">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pregunta2"
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:textSize="30sp"
+        android:textColor="@color/azuloscuro"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+
+        <ImageView
+            android:id="@+id/pina"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/pineappleimg" />
+        <ImageView
+            android:id="@+id/fresa"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/strawberryimg"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:paddingTop="40dp">
+
+        <ImageView
+            android:id="@+id/sandia"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/watermelonimg" />
+        <ImageView
+            android:id="@+id/naranja"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/orangeimg"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnpregunta2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/btnpregunta"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/rosita"
+        />
+
+
+</LinearLayout>

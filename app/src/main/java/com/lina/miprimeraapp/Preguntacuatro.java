@@ -13,14 +13,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Preguntauno extends AppCompatActivity {
+public class Preguntacuatro extends AppCompatActivity {
 
-    MediaPlayer sonidobiengatito;
-    ImageView imggatito;
 
-    ImageView imgvaquita;
+    MediaPlayer sonidogato;
+    ImageView imggato;
 
-    MediaPlayer sonidomalvaquita;
+    ImageView imgvaca;
+
+    MediaPlayer sonidovaca;
 
     ImageView imgdog;
 
@@ -37,18 +38,18 @@ public class Preguntauno extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_preguntauno);
+        setContentView(R.layout.activity_preguntacuatro);
 
-        imggatito = findViewById(R.id.imgcat);
-        imgvaquita = findViewById(R.id.imgcow);
+        imggato = findViewById(R.id.imgcat);
+        imgvaca = findViewById(R.id.imgcow);
         imgdog = findViewById(R.id.imgdogs);
         imgtortuguita = findViewById(R.id.imgtourtle);
-        btnNextQ = findViewById(R.id.btnpregunta1);
+        btnNextQ = findViewById(R.id.btnpregunta4);
 
         btnNextQ.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Preguntauno.this, Preguntados.class);
+                Intent intent = new Intent(Preguntacuatro.this, Salir.class);
                 startActivity(intent);
             }
         });
@@ -56,10 +57,8 @@ public class Preguntauno extends AppCompatActivity {
         imgtortuguita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sonidotortuga = MediaPlayer.create(Preguntauno.this,R.raw.ganastesound);
+                sonidotortuga = MediaPlayer.create(Preguntacuatro.this,R.raw.perdistesound);
                 sonidotortuga.start();
-                Intent irp =new Intent(Preguntauno.this, Preguntados.class);
-                startActivity(irp);
             }
 
         });
@@ -68,24 +67,26 @@ public class Preguntauno extends AppCompatActivity {
         imgdog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sonidomaldog = MediaPlayer.create(Preguntauno.this, R.raw.perdistesound);
+                sonidomaldog = MediaPlayer.create(Preguntacuatro.this, R.raw.perdistesound);
                 sonidomaldog.start();
             }
         });
 
-        imgvaquita.setOnClickListener(new View.OnClickListener() {
+        imgvaca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sonidomalvaquita = MediaPlayer.create(Preguntauno.this, R.raw.perdistesound);
-                sonidomalvaquita.start();
+                sonidovaca = MediaPlayer.create(Preguntacuatro.this, R.raw.ganastesound);
+                sonidovaca.start();
+                Intent irp =new Intent(Preguntacuatro.this, Salir.class);
+                startActivity(irp);
             }
         });
 
-        imggatito.setOnClickListener(new View.OnClickListener() {
+        imggato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sonidobiengatito = MediaPlayer.create(Preguntauno.this, R.raw.perdistesound);
-                sonidobiengatito.start();
+                sonidogato = MediaPlayer.create(Preguntacuatro.this, R.raw.perdistesound);
+                sonidogato.start();
 
             }
         });

@@ -19,4 +19,10 @@
     <string name="saprender">Aprender</string>
     <string name="sjugar">Jugar</string>
     <string name="titulose">Selecciona la que prefieras</string>
+    <string name="pregunta1">¿Cual es la Turtle</string>
+    <string name="btnpregunta">Siguiente</string>
+    <string name="pregunta2">¿ Cual es la Pineapple ?</string>
+    <string name="pregunta3">¿ Cual es el color green ?</string>
+    <string name="btnsalir"> Salir </string>
+    <string name="pregunta4"> ¿ Cual Es la Cow ? </string>
 </resources>

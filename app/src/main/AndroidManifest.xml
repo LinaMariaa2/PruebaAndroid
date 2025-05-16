@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MiPrimeraApp"
         tools:targetApi="31">
         <activity
+            android:name=".Preguntacuatro"
+            android:exported="false" />
+        <activity
+            android:name=".Salir"
+            android:exported="false" />
+        <activity
+            android:name=".Preguntatres"
+            android:exported="false" />
+        <activity
+            android:name=".Preguntados"
+            android:exported="false" />
+        <activity
+            android:name=".Preguntauno"
+            android:exported="false" />
+        <activity
             android:name=".seleccionprincipal"
             android:exported="false" />
         <activity
